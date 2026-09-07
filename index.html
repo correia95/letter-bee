@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#f7c948" />
+
+    <title>Letter Bee — a daily seven-letter word puzzle</title>
+    <meta
+      name="description"
+      content="A free daily word puzzle: make as many words as you can from seven letters, always using the centre one. Four letters minimum, letters repeat, all-seven words are pangrams. The same hive for everyone each day, with ranks and saved progress. Plays in your browser."
+    />
+    <link rel="canonical" href="https://letter-bee.correia95.workers.dev/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Letter Bee" />
+    <meta property="og:description" content="A daily seven-letter word puzzle. Make words using the centre letter, find the pangrams, climb the ranks. Same hive for everyone. Free, no sign-up." />
+    <meta property="og:url" content="https://letter-bee.correia95.workers.dev/" />
+    <meta property="og:image" content="https://letter-bee.correia95.workers.dev/og.svg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Letter Bee" />
+    <meta name="twitter:description" content="A daily seven-letter word puzzle. Make words using the centre letter, find the pangrams, climb the ranks." />
+    <meta name="twitter:image" content="https://letter-bee.correia95.workers.dev/og.svg" />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "VideoGame",
+        "name": "Letter Bee",
+        "url": "https://letter-bee.correia95.workers.dev/",
+        "applicationCategory": "GameApplication",
+        "operatingSystem": "Any",
+        "genre": "Word puzzle",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "description": "A daily seven-letter word puzzle where you make words using a required centre letter, find pangrams and climb the ranks, the same for every player each day."
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What are the rules of Letter Bee?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Make words from the seven letters shown. Every word must be at least four letters long and must include the centre letter. Letters can be reused. A word that uses all seven letters is a pangram and scores a bonus."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How is the score worked out?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A four-letter word scores one point. Longer words score one point per letter. A pangram adds seven points. Your total moves you up the ranks from Beginner to Queen Bee, which is every word."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is it the same puzzle for everyone?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The hive is generated from the date, so every player gets the same seven letters each day. A new one appears at midnight UTC and your progress is saved in your browser."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why was my word rejected?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Answers come from the public-domain ENABLE word list, which omits proper nouns and words containing S. It is not identical to an official Scrabble dictionary, so a few valid-looking words are not accepted."
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <noscript>
+      <p style="text-align: center; padding: 20px">
+        Letter Bee needs JavaScript. It is a daily word puzzle: make as many words as you can from
+        seven letters, always using the centre one, and find the pangrams.
+      </p>
+    </noscript>
+  </body>
+</html>

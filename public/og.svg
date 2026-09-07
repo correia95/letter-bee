@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#14120b"/>
+  <g transform="translate(840,315)">
+    <g fill="#2f2917">
+      <path d="M-150 -78 L-90 -113 L-30 -78 L-30 -8 L-90 27 L-150 -8 Z"/>
+      <path d="M-150 84 L-90 49 L-30 84 L-30 154 L-90 189 L-150 154 Z"/>
+      <path d="M30 -78 L90 -113 L150 -78 L150 -8 L90 27 L30 -8 Z"/>
+      <path d="M30 84 L90 49 L150 84 L150 154 L90 189 L30 154 Z"/>
+      <path d="M-60 3 L0 -32 L60 3 L60 73 L0 108 L-60 73 Z"/>
+    </g>
+    <path d="M-60 -159 L0 -194 L60 -159 L60 -89 L0 -54 L-60 -89 Z" fill="#f7c948"/>
+    <text x="0" y="-108" text-anchor="middle" font-family="-apple-system, Segoe UI, sans-serif" font-size="72" font-weight="800" fill="#201d12">B</text>
+    <g font-family="-apple-system, Segoe UI, sans-serif" font-size="60" font-weight="800" fill="#ede8d8" text-anchor="middle">
+      <text x="-90" y="-58">E</text><text x="-90" y="164">R</text>
+      <text x="0" y="53">L</text>
+      <text x="90" y="-58">T</text><text x="90" y="164">A</text>
+      <text x="0" y="-134" fill="#201d12"></text>
+    </g>
+  </g>
+  <text x="80" y="180" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="92" font-weight="800" fill="#f7c948" letter-spacing="-1">Letter Bee</text>
+  <text x="80" y="240" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="28" fill="#a89f86">A daily seven-letter word puzzle</text>
+  <text x="80" y="430" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="26" fill="#ede8d8">Use the centre letter · find the pangrams · climb to Queen Bee</text>
+  <text x="80" y="476" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="22" fill="#a89f86">Same hive for everyone · free · no sign-up · progress saved</text>
+</svg>
