@@ -97,3 +97,9 @@ header h1 { font-size: clamp(1.4rem, 4.5vw, 1.9rem); margin: 0 0 4px; letter-spa
 .explainer p { color: var(--ink-soft); font-size: 0.92rem; }
 .explainer strong { color: var(--ink); }
 .explainer footer { margin-top: 24px; text-align: center; font-size: 0.8rem; color: var(--ink-soft); }
+
+/* a11y-contrast-fixes (auto, WCAG AA 4.5:1) */
+@media (prefers-color-scheme: light) {
+  .toast.ok { color: #26723e; }
+  .toast.bad { color: #ba3939; }
+}
